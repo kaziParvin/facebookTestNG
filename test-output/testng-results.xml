@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-05T17:06:43 CDT" name="Suite" finished-at="2021-11-05T17:06:52 CDT" duration-ms="8968">
+    <groups>
+    </groups>
+    <test started-at="2021-11-05T17:06:43 CDT" name="Test" finished-at="2021-11-05T17:06:52 CDT" duration-ms="8968">
+      <class name="tests.NegativeLoginTest">
+        <test-method is-config="true" signature="openInvalidApplication()[pri:0, instance:tests.NegativeLoginTest@7671cb68]" started-at="2021-11-05T17:06:43 CDT" name="openInvalidApplication" finished-at="2021-11-05T17:06:47 CDT" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInvalidApplication -->
+        <test-method signature="invalidPass()[pri:0, instance:tests.NegativeLoginTest@7671cb68]" started-at="2021-11-05T17:06:47 CDT" name="invalidPass" finished-at="2021-11-05T17:06:49 CDT" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPass -->
+        <test-method signature="invalidEmail()[pri:1, instance:tests.NegativeLoginTest@7671cb68]" started-at="2021-11-05T17:06:49 CDT" name="invalidEmail" finished-at="2021-11-05T17:06:50 CDT" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:tests.NegativeLoginTest@7671cb68]" started-at="2021-11-05T17:06:50 CDT" name="finish" finished-at="2021-11-05T17:06:50 CDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- tests.NegativeLoginTest -->
+      <class name="tests.PositiveLoginTest">
+        <test-method is-config="true" signature="openValidApplication()[pri:0, instance:tests.PositiveLoginTest@49dc7102]" started-at="2021-11-05T17:06:50 CDT" name="openValidApplication" finished-at="2021-11-05T17:06:52 CDT" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openValidApplication -->
+        <test-method signature="invalidEmail()[pri:0, instance:tests.PositiveLoginTest@49dc7102]" started-at="2021-11-05T17:06:52 CDT" name="invalidEmail" finished-at="2021-11-05T17:06:52 CDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:tests.PositiveLoginTest@49dc7102]" started-at="2021-11-05T17:06:52 CDT" name="finish" finished-at="2021-11-05T17:06:52 CDT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- tests.PositiveLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
